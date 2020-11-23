@@ -1,0 +1,22 @@
+.nav {
+    grid-area: n;
+    margin-top: 1.5rem;
+    margin-right: 1.5rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+
+}
+
+.item.settings {
+    padding-top: 2rem;
+    color: white;
+}
+
+.item a{
+    color: #2a5885;
+    text-decoration: none;
+}
+
+.item a.activeLink {
+    color: gold;
+}

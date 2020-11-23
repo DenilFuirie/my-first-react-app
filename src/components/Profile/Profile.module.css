@@ -1,0 +1,12 @@
+.content {
+    grid-area: c;
+
+    margin-top: 1.5rem
+}
+
+.item {
+    color: palegreen;
+}
+img {
+
+}

@@ -12,7 +12,6 @@ import {BrowserRouter, Route} from "react-router-dom";
 
 const App = (props) => {
 
-
     return (
         <BrowserRouter>
             <div className="app-wrapper-header">

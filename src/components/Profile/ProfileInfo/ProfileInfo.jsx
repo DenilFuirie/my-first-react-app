@@ -11,7 +11,7 @@ const ProfileInfo = () => {
                  height='150x' width='1000px'/>
         </div>
         <div className={s.descriptionBlock}>
-            ava + description
+            avatar + description
         </div>
 
     </div>

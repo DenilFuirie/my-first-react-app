@@ -1,4 +1,3 @@
-
 let state = {
     profilePage: {
         posts : [
@@ -28,6 +27,7 @@ let state = {
             {id: 4, name: 'Dimych'},
         ],
     },
+    sidebar: {}
 
 }
 

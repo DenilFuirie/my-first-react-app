@@ -5,12 +5,6 @@ let state = {
             {id: 2, message: 'Where are you been?', likesCount: 11},
             {id: 3, message: 'Can you send me your number?', likesCount: 15},
             {id: 4, message: 'I want a pizza', likesCount: 100},
-            {id: 5, message: 'I want a pizza', likesCount: 100},
-            {id: 6, message: 'I want a pizza', likesCount: 100},
-            {id: 7, message: 'I want a pizza', likesCount: 100},
-            {id: 8, message: 'I want a pizza', likesCount: 100},
-            {id: 9, message: 'I want a pizza', likesCount: 100},
-
         ],
     },
     dialogsPage: {
@@ -30,5 +24,16 @@ let state = {
     sidebar: {}
 
 }
+
+export let addPost = (postMessage) => {
+    let newPost = {
+        id: 5,
+        message: postMessage,
+        likesCount: 0
+    }
+
+    state.profilePage.posts.push(newPost)
+}
+
 
 export default state

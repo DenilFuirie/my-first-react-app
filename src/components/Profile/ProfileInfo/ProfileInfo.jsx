@@ -1,9 +1,15 @@
 import React from 'react'
 import s from './ProfileInfo.module.css'
+import Loader from "../../Loader/Loader";
 
 
 
-const ProfileInfo = () => {
+const ProfileInfo = (props) => {
+
+    if (!props.profile) {
+        return <Loader />
+    }
+
     return (
     <div>
         <div>
@@ -11,7 +17,7 @@ const ProfileInfo = () => {
                  height='150x' width='1000px'/>
         </div>
         <div className={s.descriptionBlock}>
-            avatar + description
+            <img src={props.profile.photos.large} />
         </div>
 
     </div>
